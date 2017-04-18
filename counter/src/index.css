@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.counter {
+  margin: 20px;
+  font-size: 32px;
+}
+
+.counter button {
+  margin: 25px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.counter button:active,
+.counter button:focus {
+  outline: none;
+}
+
+.counter button:active {
+  background-color: #F24E4E;
+  color: #fff;
+}
